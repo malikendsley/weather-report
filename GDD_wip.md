@@ -25,14 +25,14 @@ space station themed areas that connect everything
 
 
 # Mechanics
-The ecosystem
-Seasons
+## The ecosystem
+## Seasons
 The station is fundamentally a segmented ring of artificial ecosystems designed for experimentation and research. Because of this, a weather control system is built into the station. The player will be able to control the weather through this in order to accomplish their goals.
 
 The weather will interact with as much of the gameplay as possible. Some possible things:
-- 	Enemy turnout and behavior
-- 	Visibility, movement speed
-- 	Environmental hazards, presence or absence of certain gates
+- Enemy turnout and behavior
+- Visibility, movement speed
+- Environmental hazards, presence or absence of certain gates
 
 For example, some puzzles will need a certain weather condition to complete. 
 
