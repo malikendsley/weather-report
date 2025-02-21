@@ -20,7 +20,6 @@ func _input(event: InputEvent) -> void:
 			return
 		var keycode: Key = event.physical_keycode
 		timestamps[keycode] = Time.get_ticks_msec()
-		print("input_buffer: " + OS.get_keycode_string(keycode) + " received: (" + str(keycode) + ")")
 	elif event is InputEventMouseButton:
 		# check if was press
 		if event.pressed:
@@ -33,7 +32,6 @@ func consume(action: String, custom_buffer: int = BUFFER_WINDOW) -> bool:
 	for event in InputMap.action_get_events(action):
 		if event is InputEventKey:
 			var keycode: Key = event.physical_keycode
-			print("Checking for keycode " + str(keycode))
 			if timestamps.has(keycode):
 				if Time.get_ticks_msec() - timestamps[keycode] <= custom_buffer:
 					# consume the action

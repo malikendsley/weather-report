@@ -79,7 +79,6 @@ func _physics_process(delta: float) -> void:
 			velocity.x = move_toward(velocity.x, directional_input.x * SPEED, ACCELERATION * delta)
 
 			if InputBuffer.consume("jump"):
-				print("Jumping")
 				velocity.y = JUMP_VELOCITY
 				current_state = PlayerState.jumping
 			if directional_input.x != 0:
