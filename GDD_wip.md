@@ -13,16 +13,14 @@ You’re stuck aboard a vast space-preservatorium, home to multiple biomes, flor
 ## The Furnace
 
 
-Turns into an oasis in the wet season, significantly less dangerous
-
-Dry season: fiery mess, very dangerous
-The Freezer
-Dry season: Taiga, boreal forest, more neutral.
-Wet season: Frozen blizzardy mess, ice everywhere
-The in-between
-Not subject to weather control system
-space station themed areas that connect everything
-
+- Turns into an oasis in the wet season, significantly less dangerous
+- Dry season: fiery mess, very dangerous
+## The Freezer
+- Dry season: Taiga, boreal forest, more neutral.
+- Wet season: Frozen blizzardy mess, ice everywhere
+## The in-between
+- Not subject to weather control system
+- space station themed areas that connect everything
 
 # Mechanics
 
